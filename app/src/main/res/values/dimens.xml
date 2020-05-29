@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">1dp</dimen>
+    <dimen name="Text_padding_StartEnd">14dp</dimen>
+    <dimen name="Text_padding_TopBottom">20dp</dimen>
+    <dimen name="title_textSize">18sp</dimen>
+    <dimen name="content_textSize">17sp</dimen>
+</resources>

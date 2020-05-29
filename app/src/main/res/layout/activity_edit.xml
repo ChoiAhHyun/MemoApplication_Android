@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray">
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_title"
+        android:paddingStart="@dimen/Text_padding_StartEnd"
+        android:paddingEnd="@dimen/Text_padding_StartEnd"
+        android:paddingTop="@dimen/Text_padding_TopBottom"
+        android:paddingBottom="@dimen/Text_padding_TopBottom"
+        android:background="@color/colorAccent"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/title_textSize"
+        android:textColorHint="@color/colorGray"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:hint="@string/hint_content"
+        android:paddingStart="@dimen/Text_padding_StartEnd"
+        android:paddingEnd="@dimen/Text_padding_StartEnd"
+        android:paddingTop="@dimen/Text_padding_TopBottom"
+        android:paddingBottom="@dimen/Text_padding_TopBottom"
+        android:background="@color/colorAccent"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/content_textSize"
+        android:textColorHint="@color/colorGray"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="@dimen/margin"/>
+
+</LinearLayout>
