@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "603486816394",
+    "firebase_url": "https://memoapplication-20771.firebaseio.com",
+    "project_id": "memoapplication-20771",
+    "storage_bucket": "memoapplication-20771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603486816394:android:9c7d5456f6476423f84573",
+        "android_client_info": {
+          "package_name": "com.cah.androidmemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603486816394-4ddqn2favf6s2ch0smggv98g9ct0hub9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuVGakCkau3k244w3MagUPG7GBxlQAvw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603486816394-4ddqn2favf6s2ch0smggv98g9ct0hub9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603486816394:android:8016417d71135f8cf84573",
+        "android_client_info": {
+          "package_name": "com.cah.fluttermemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603486816394-4ddqn2favf6s2ch0smggv98g9ct0hub9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuVGakCkau3k244w3MagUPG7GBxlQAvw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603486816394-4ddqn2favf6s2ch0smggv98g9ct0hub9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
