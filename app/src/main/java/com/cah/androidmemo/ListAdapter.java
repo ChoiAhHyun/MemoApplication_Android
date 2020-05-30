@@ -14,9 +14,9 @@ import java.util.List;
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
-    private List<Memo> mList;
+    private List<MemoData> mList;
 
-    public ListAdapter(List<Memo> list) {
+    public ListAdapter(List<MemoData> list) {
         this.mList = list;
     }
 
@@ -44,7 +44,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull final ViewHolder holder, final int position) {
-        final Memo item = mList.get(position);
+        final MemoData item = mList.get(position);
         holder.tv_title.setText(item.getTitle());
         holder.tv_content.setText(item.getContent());
 

@@ -1,6 +1,6 @@
 package com.cah.androidmemo;
 
-public class Memo {
+public class MemoData {
     private String id, title, content;
 
     public String getId() {
@@ -15,4 +15,9 @@ public class Memo {
         return content;
     }
 
+    public MemoData(String id, String title, String content) {
+        this.id = id;
+        this.title = title;
+        this.content = content;
+    }
 }
