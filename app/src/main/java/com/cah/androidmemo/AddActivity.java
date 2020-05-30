@@ -30,6 +30,8 @@ public class AddActivity extends AppCompatActivity {
     }
 
     private void init() {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.baseline_arrow_back_white_24);
         et_title = findViewById(R.id.et_title);
         et_content = findViewById(R.id.et_content);
     }

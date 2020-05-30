@@ -45,6 +45,8 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void init() {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeAsUpIndicator(R.drawable.baseline_arrow_back_white_24);
         tv_title = findViewById(R.id.tv_title);
         tv_content = findViewById(R.id.tv_content);
     }
