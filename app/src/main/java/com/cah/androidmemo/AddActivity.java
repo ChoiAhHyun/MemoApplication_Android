@@ -12,6 +12,7 @@ import android.widget.EditText;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.Timestamp;
+import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
@@ -68,9 +69,9 @@ public class AddActivity extends AppCompatActivity {
                 .addOnFailureListener(onFailureListener);
     }
 
-    OnSuccessListener onSuccessListener = new OnSuccessListener<Void>() {
+    OnSuccessListener<DocumentReference> onSuccessListener = new OnSuccessListener<DocumentReference>() {
         @Override
-        public void onSuccess(Void aVoid) {
+        public void onSuccess(DocumentReference documentReference) {
             finish();
         }
     };
